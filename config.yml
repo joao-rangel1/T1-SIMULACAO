@@ -1,0 +1,22 @@
+fila1:
+  servidores: 1
+  capacidade: 100000000000
+  atendimento_minimo: 1.0
+  atendimento_maximo: 2.0
+fila2:
+  servidores: 2
+  capacidade: 5
+  atendimento_minimo: 4.0
+  atendimento_maximo: 8.0
+fila3:
+  servidores: 2
+  capacidade: 10
+  atendimento_minimo: 5.0
+  atendimento_maximo: 15.0
+prob_fila1_para_fila2: 0.8
+prob_fila1_para_fila3: 0.2
+prob_fila2_para_fila2: 0.5
+prob_fila2_para_fila1: 0.3
+prob_fila2_saida: 0.2
+prob_fila3_para_fila3: 0.7
+prob_fila3_saida: 0.3
